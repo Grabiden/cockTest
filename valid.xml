@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PublicTransport>
+    <Transport>
+        <Type>Tram</Type>
+        <Route>Line 1 (Wzgórza Krzesławickie - Salwator)</Route>
+        <Frequency>Every 10 minutes</Frequency>
+        <OperatingHours>5:00 AM - 11:00 PM</OperatingHours>
+    </Transport>
+    <Transport>
+        <Type>Tram</Type>
+        <Route>Line 13 (Nowy Bieżanów - Bronowice)</Route>
+        <Frequency>Every 15 minutes</Frequency>
+        <OperatingHours>5:30 AM - 10:30 PM</OperatingHours>
+    </Transport>
+    <Transport>
+        <Type>Bus</Type>
+        <Route>Line 152 (Os. Podwawelskie - Olszanica)</Route>
+        <Frequency>Every 20 minutes</Frequency>
+        <OperatingHours>6:00 AM - 11:00 PM</OperatingHours>
+    </Transport>
+    <Transport>
+        <Type>Bus</Type>
+        <Route>Line 208 (Airport - Main Station)</Route>
+        <Frequency>Every 30 minutes</Frequency>
+        <OperatingHours>4:00 AM - 12:00 AM</OperatingHours>
+    </Transport>
+    <Transport>
+        <Type>NightBus</Type>
+        <Route>Line 601 (Kombinat - Podgórze)</Route>
+        <Frequency>Every 60 minutes</Frequency>
+        <OperatingHours>11:00 PM - 5:00 AM</OperatingHours>
+    </Transport>
+    <Transport>
+        <Type>NightTram</Type>
+        <Route>Line 64 (Bronowice Małe - Kurdwanów)</Route>
+        <Frequency>Every 60 minutes</Frequency>
+        <OperatingHours>11:30 PM - 4:30 AM</OperatingHours>
+    </Transport>
+</PublicTransport>
