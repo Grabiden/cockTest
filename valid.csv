@@ -1,0 +1,7 @@
+Type,Route,Frequency,Operating Hours
+Tram,Line 1 (Wzgórza Krzesławickie - Salwator),Every 10 minutes,5:00 AM - 11:00 PM
+Tram,Line 13 (Nowy Bieżanów - Bronowice),Every 15 minutes,5:30 AM - 10:30 PM
+Bus,Line 152 (Os. Podwawelskie - Olszanica),Every 20 minutes,6:00 AM - 11:00 PM
+Bus,Line 208 (Airport - Main Station),Every 30 minutes,4:00 AM - 12:00 AM
+Night Bus,Line 601 (Kombinat - Podgórze),Every 60 minutes,11:00 PM - 5:00 AM
+Night Tram,Line 64 (Bronowice Małe - Kurdwanów),Every 60 minutes,11:30 PM - 4:30 AM
