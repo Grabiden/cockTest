@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PublicTransport>
-    <Transport>
-        <Type>Tram</Type>
-        <Route>Line 1 (Wzgórza Krzesławickie - Salwator)</Route>
-        <Frequency>Every 10 minutes</Frequency>
-        <OperatingHours>5:00 AM - 11:00 PM</OperatingHours>
-    </Transport>
-    <Transport>
-        <Type>Tram</Type>
-        <Route>Line 13 (Nowy Bieżanów - Bronowice)</Route>
-        <Frequency>Every 15 minutes</Frequency>
-        <OperatingHours>5:30 AM - 10:30 PM</OperatingHours>
-    </Transport>
-    <Transport>
-        <Type>Bus</Type>
-        <Route>Line 152 (Os. Podwawelskie - Olszanica)</Route>
-        <Frequency>Every 20 minutes</Frequency>
-        <OperatingHours>6:00 AM - 11:00 PM</OperatingHours>
-    </Transport>
-    <Transport>
-        <Type>Bus</Type>
-        <Route>Line 208 (Airport - Main Station)</Route>
-        <Frequency>Every 30 minutes</Frequency>
-        <OperatingHours>4:00 AM - 12:00 AM</OperatingHours>
-    </Transport>
-    <Transport>
-        <Type>NightBus</Type>
-        <Route>Line 601 (Kombinat - Podgórze)</Route>
-        <Frequency>Every 60 minutes</Frequency>
-        <OperatingHours>11:00 PM - 5:00 AM</OperatingHours>
-    </Transport>
-    <Transport>
-        <Type>NightTram</Type>
-        <Route>Line 64 (Bronowice Małe - Kurdwanów)</Route>
-        <Frequency>Every 60 minutes</Frequency>
-        <OperatingHours>11:30 PM - 4:30 AM</OperatingHours>
-    </Transport>
+    <Line>
+        <Name id="1" description="Tram Line 1">Tram 1</Name>
+        <Type id="1" description="Public Tram">Tram</Type>
+        <StartingPoint id="1" description="Start of Line">Wzgórza Krzesławickie</StartingPoint>
+        <Destination id="1" description="End of Line">Salwator</Destination>
+    </Line>
+    <Line>
+        <Name id="2" description="Tram Line 4">Tram 4</Name>
+        <Type id="2" description="Public Tram">Tram</Type>
+        <StartingPoint id="2" description="Start of Line">Bronowice</StartingPoint>
+        <Destination id="2" description="End of Line">Nowa Huta</Destination>
+    </Line>
+    <Line>
+        <Name id="3" description="Bus Line 152">Bus 152</Name>
+        <Type id="3" description="Public Bus">Bus</Type>
+        <StartingPoint id="3" description="Start of Line">Dworzec Główny</StartingPoint>
+        <Destination id="3" description="End of Line">Os. Podwawelskie</Destination>
+    </Line>
+    <Line>
+        <Name id="4" description="Bus Line 192">Bus 192</Name>
+        <Type id="4" description="Public Bus">Bus</Type>
+        <StartingPoint id="4" description="Start of Line">Kraków Airport</StartingPoint>
+        <Destination id="4" description="End of Line">Cracovia Stadion</Destination>
+    </Line>
+    <Line>
+        <Name id="5" description="Tram Line 24">Tram 24</Name>
+        <Type id="5" description="Public Tram">Tram</Type>
+        <StartingPoint id="5" description="Start of Line">Kurdwanów</StartingPoint>
+        <Destination id="5" description="End of Line">Bronowice Małe</Destination>
+    </Line>
+    <Line>
+        <Name id="6" description="Bus Line 124">Bus 124</Name>
+        <Type id="6" description="Public Bus">Bus</Type>
+        <StartingPoint id="6" description="Start of Line">Podgórze</StartingPoint>
+        <Destination id="6" description="End of Line">Prądnik Biały</Destination>
+    </Line>
 </PublicTransport>
