@@ -1,0 +1,13 @@
+{
+    "name": "Kraków Transport Network",
+    "lines_count": 120,
+    "average_ticket_price": 3.5,
+    "is_operational": true,
+    "tram_routes": ["Tram 1", "Tram 4", "Tram 24"],
+    "bus_routes": {
+        "main_routes": ["Bus 152", "Bus 192", "Bus 124"],
+        "night_routes": ["Bus 601", "Bus 608"]
+    },
+    "city": "Kraków",
+    "annual_passengers_millions": 250
+}
